@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/field1"
+        android:hint="ENTER NAME "
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/field2"
+        android:hint="ENTER PHONE"
+        app:layout_constraintTop_toBottomOf="@id/field1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="ENTER ORGNIZATION"
+        android:id="@+id/field3"
+        app:layout_constraintTop_toBottomOf="@id/field2" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/field4"
+        android:hint="ENTER RELATIONSHIP"
+        app:layout_constraintTop_toBottomOf="@id/field3" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/field5"
+        android:hint="ENTER DISCRIPTION"
+        app:layout_constraintTop_toBottomOf="@id/field4"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
